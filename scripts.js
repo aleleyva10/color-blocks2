@@ -14,7 +14,7 @@ function rgbValue() {
 }
 
 var addCircle = function() {
-  var $block = ('<div style="background-color:' + rgbValue() + '"></div>');
+  var $block = ('<div class="circle" style="background-color:' + rgbValue() + '"></div>');
   $('main').append($block);
   updateCounters();
 };
@@ -35,6 +35,6 @@ var updateCounters = function() {
 };
 
 function onReady() {
-  $('button').on('click', addCircle);
-  $('main').on('click', 'div', deleteCircle);
+  $('#circleButton').on('click', addCircle);
+  $('main').on('click', '.circle', deleteCircle);
 }
