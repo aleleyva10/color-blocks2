@@ -1,9 +1,15 @@
 body {
   background-color: #BCF4F5;
 }
+
 h1 {
   font-family: open sans;
+  font-size: 3em;
   color:#31afa7;
+  text-align: center;
+}
+h1:hover {
+  color: #3C91E6;
 }
 
 main > div {
@@ -18,4 +24,22 @@ main > div {
 
 main {
   margin: 20px;
+}
+
+#button {
+  text-align: center;
+}
+
+#circleButton {
+  height: 3em;
+  width: 5em;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 35px;
+  background-color: #03CEA4;
+  color: black;
+}
+#circleButton:hover {
+  background-color: #3C91E6;
+  color: white;
 }

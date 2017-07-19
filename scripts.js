@@ -30,7 +30,7 @@ var deleteCircle = function() {
 var updateCounters = function() {
   console.log('in updateCounters');
 
-  $('#circles').text($('div').length);
+  $('#circles').text($('div').length - 1);
 
 };
 
