@@ -1,0 +1,25 @@
+body {
+  background-color: #BCF4F5;
+}
+h1 {
+  font-family: open sans;
+  color:#31afa7;
+}
+
+.blocks {
+  border: 2px black solid;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin: 10px;
+  box-shadow: 0px 0px 10px #5c5c5c;
+}
+.circles {
+  border: 2px black solid;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border-radius: 30px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px #5c5c5c;
+}
